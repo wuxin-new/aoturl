@@ -1,0 +1,16 @@
+{
+    "name": "wuxin-new/aoturl",
+    "description": "the php auto url",
+    "type": "project",
+    "require": {
+        "jaeger/querylist": "dev-master"
+    },
+    "license": "Apache 2.0",
+    "authors": [
+        {
+            "name": "wuxin",
+            "email": "3424704134@qq.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
