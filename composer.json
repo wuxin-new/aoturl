@@ -5,6 +5,16 @@
     "require": {
         "jaeger/querylist": "dev-master"
     },
+    "autoload": {
+        "files": [
+            "core/functions.php"
+        ],
+        "psr-4":{
+            "core\\":"core/",
+            "core\\Rule\\": "core/rule/",
+            "web\\":"web/"
+        }
+    },
     "license": "MIT",
     "authors": [
         {
